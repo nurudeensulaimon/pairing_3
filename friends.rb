@@ -9,6 +9,15 @@ def above_thirty(array)
     end  
 end 
 
-above_thirty(nums_array)
+# above_thirty(nums_array)
 
 
+def under_sixty(array)
+    array.each do |number|
+        if number < 60
+            puts number 
+        end
+    end  
+end 
+
+under_sixty(nums_array)
